@@ -157,7 +157,7 @@ elif kluster == "Lainnya":
 
 
 # Pilihan Universitas
-universitas = st.selectbox("Universitas:", ("IPB", "ITB", "ITS", "PKN STAN", "UB", "UGM", "UI", "UNAIR", "UNAND", "UNDIP", "UNHAN", "UNHAS", "UNILA", "UNPAD", "UNS", "UNSRI", "UNSUD", "indo_lainnya", "AUS", "JPN", "UK", "USA", "Linkage", "lainnya"))
+universitas = st.selectbox("Universitas:", ("IPB", "ITB", "ITS", "PKN STAN", "UB", "UGM", "UI", "UNAIR", "UNAND", "UNDIP", "UNHAN", "UNHAS", "UNILA", "UNPAD", "UNS", "UNSRI", "UNSUD", "Universitas dalam negeri lainnya", "AUS", "JPN", "UK", "USA", "Linkage", "lainnya"))
 
 # Update dataset berdasarkan pilihan
 if universitas == "IPB":
@@ -585,7 +585,7 @@ elif universitas == "UNSUD":
     df['univ_UNSUD'] = [1]
     df['univ_UNS'] = [0]
     df['univ_PKN STAN'] = [0]
-elif universitas == "indo_lainnya":
+elif universitas == "Universitas dalam negeri lainnya":
     df['univ_lainnya'] = [0]
     df['univ_indo_lainnya'] = [1]
     df['univ_Linkage'] = [0]
