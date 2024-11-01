@@ -1033,7 +1033,7 @@ elif pasangan == "Non BPKP":
     df['pasangan_NonBPKP'] = [1]
 
 # Pilihan DOmisili
-domisili = st.selectbox("Universitas termasuk Domisili:", ("Ya", "Tidak"))
+domisili = st.selectbox("Apakah lokasi universitas dekat dengan domisili?:", ("Ya", "Tidak"))
 
 # Update dataset berdasarkan pilihan
 if domisili == "Ya":
