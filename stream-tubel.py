@@ -764,7 +764,7 @@ elif universitas == "lainnya":
 
 # Pilihan Tahun Intake dengan range 2010 - 2050
 tahun_intake = st.number_input(
-    'tahun_intake',
+    'Tahun Intake',
     min_value=2010,
     max_value=2050,
     step=1,
@@ -774,7 +774,7 @@ df['tahun_intake'] = tahun_intake
 
 # Pilihan Umur dengan range 17 - 60
 Umur_intake = st.number_input(
-    'Umur_intake',
+    'Umur Intake',
     min_value=17,
     max_value=60,
     step=1,
@@ -784,7 +784,7 @@ df['Umur_intake'] = Umur_intake
 
 # Pilihan Lama Bekerja dengan range 0 - 43
 Lama_Bekerja = st.number_input(
-    'Lama_Bekerja',
+    'Lama Bekerja',
     min_value=0,
     max_value=43,
     step=1,
