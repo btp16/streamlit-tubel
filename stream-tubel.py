@@ -41,7 +41,7 @@ elif strata == "S-3":
 
 
 # Pilihan Kluster
-kluster = st.selectbox("Kluster Jurursan:", ("Akuntansi", "Ekonomi, Ilmu Ekonomi, dan Ekonomi Terapan", "Hukum", "Ilmu Administrasi, Administrasi Pembangunan dan Bisnis", "Kebijakan Publik", "Manajemen, Ilmu Manajemen dan Manajemen Terapan", "SDM, Psikolog, Kepemimpinan dan Komunikasi", "Studi Pembangunan, Ilmu Pembangunan", "TI dan Komputer", "Lainnya"))
+kluster = st.selectbox("Kluster Jurusan:", ("Akuntansi", "Ekonomi, Ilmu Ekonomi, dan Ekonomi Terapan", "Hukum", "Ilmu Administrasi, Administrasi Pembangunan dan Bisnis", "Kebijakan Publik", "Manajemen, Ilmu Manajemen dan Manajemen Terapan", "SDM, Psikolog, Kepemimpinan dan Komunikasi", "Studi Pembangunan, Ilmu Pembangunan", "TI dan Komputer", "Lainnya"))
 
 # Update dataset berdasarkan pilihan
 if kluster == "Akuntansi":
